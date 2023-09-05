@@ -5,6 +5,9 @@ import Home from './components/home/home'
 import Product from './components/products/product'
 import About from './components/aboutus/about'
 import Offer from './components/offer/offer'
+import Letter from './components/newsletter/newsletter'
+import Footer from './components/footer/footer'
+import Feedback from './components/feedback/feedback'
 let App=()=>{
   return (
 <div>
@@ -13,6 +16,9 @@ let App=()=>{
 <Product/>
 <About/>
 <Offer/>
+<Feedback/>
+<Letter/>
+<Footer/>
 </div> 
   )
   }
